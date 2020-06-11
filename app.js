@@ -34,6 +34,7 @@ cameraTrigger.onclick = function() {
     var link = document.getElementById('camera--sensor');
     link.setAttribute('download', 'MintyPaper.png');
     //cameraSensor.setAttribute('download', 'MintyPaper.png');
+    link.click();*/
 };
 
 /* --- edit code
