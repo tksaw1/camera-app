@@ -27,6 +27,13 @@ cameraTrigger.onclick = function() {
     cameraSensor.getContext("2d").drawImage(cameraView, 0, 0);
     cameraOutput.src = cameraSensor.toDataURL("image/webp");
     cameraOutput.classList.add("taken");
+    
+    window.location.href=cameraSensor.toDataURL("image/png").replace("image/png", "image/octet-stream");  // here is the most important part because if you dont replace you will get a DOM 18 exception.
+
+    /*
+    var link = document.getElementById('camera--sensor');
+    link.setAttribute('download', 'MintyPaper.png');
+    //cameraSensor.setAttribute('download', 'MintyPaper.png');
 };
 
 /* --- edit code
