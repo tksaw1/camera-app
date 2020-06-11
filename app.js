@@ -25,7 +25,7 @@ var file = fileInput.files[0];
 
 var snap = cameraSensor;
 var flatten = snap.getContext('2d');
-dropboxToken = "WkxLpWo7IDAAAAAAAAAAGtgMq1cQMcMrjK3oMBE8l6pXE7tA4sSZ7zug0ZtSlhUR"; // make sure to change the how long you want this to be valid for in dropbox oauth settings
+dropboxToken = "WkxLpWo7IDAAAAAAAAAAG_6ozF5BpFpIEtl7pukdYmjmozAF0148nwq0wb3TFKEO"; // make sure to change the how long you want this to be valid for in dropbox oauth settings
 
 
 /* Convert canvas to file attempt 1
